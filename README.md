@@ -1,4 +1,4 @@
-[![npm version](https://img.shields.io/npm/v/@gnosis.pm/dex-js.svg?style=flat)](https://npmjs.org/package/@gnosis.pm/dex-js 'View this project on npm')
+[![npm version](https://img.shields.io/npm/v/@cowprotocol/cow-js.svg?style=flat)](https://npmjs.org/package/@cowprotocol/cow-js 'View this project on npm')
 &nbsp;
 [![Build Status](https://travis-ci.org/gnosis/dex-js.svg?branch=develop)](https://travis-ci.org/gnosis/dex-js)
 &nbsp;
@@ -30,16 +30,16 @@ This library provides:
 
 ```bash
 # Using yarn
-yarn add @gnosis.pm/dex-js --save
+yarn add @cowprotocol/cow-js --save
 
 #Alternatively
-npm install @gnosis.pm/dex-js --save
+npm install @cowprotocol/cow-js --save
 ```
 
 Import the contract:
 
 ```js
-import { BatchExchangeContract } from ' @gnosis.pm/dex-js'
+import { BatchExchangeContract } from ' @cowprotocol/cow-js'
 
 // Instanciate the smart contract
 const web3 = new Web3()

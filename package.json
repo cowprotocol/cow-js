@@ -1,5 +1,5 @@
 {
-  "name": "@gnosis.pm/dex-js",
+  "name": "@cowprotocol/cow-js",
   "version": "0.14.0",
   "description": "Gnosis Protocol JS integration: utils, contracts and other goodies",
   "license": "MIT",
