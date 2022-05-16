@@ -1,6 +1,6 @@
 {
   "name": "@cowprotocol/cow-js",
-  "version": "0.15.0-RC.3",
+  "version": "0.15.0-RC.4",
   "description": "Gnosis Protocol JS integration: utils, contracts and other goodies",
   "license": "MIT",
   "bugs": {
