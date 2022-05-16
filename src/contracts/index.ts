@@ -9,7 +9,6 @@ import { TcrContract } from './TcrContract'
 import tcrAbiJson from './abi/Tcr.json'
 
 export * from './types'
-export * from './BatchExchangeContract'
 export * from './Erc20Contract'
 export * from './WethContract'
 export * from './TcrContract'
