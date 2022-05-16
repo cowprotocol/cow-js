@@ -1,4 +1,4 @@
-import Logger from 'helpers/Logger'
+import Logger from './Logger'
 import { Command, AsyncCommand } from '../types'
 
 type QuitSignal = 'SIGINT' | 'SIGTERM' | 'SIGQUIT'
