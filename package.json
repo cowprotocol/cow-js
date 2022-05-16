@@ -42,7 +42,8 @@
     "web3": "^1.2.4"
   },
   "dependencies": {
-    "bignumber.js": "^9.0.2"
+    "bignumber.js": "^9.0.2",
+    "bn.js": "^5.2.0"
   },
   "devDependencies": {
     "@typechain/web3-v1": "^1.0.0",
