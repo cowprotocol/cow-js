@@ -1,4 +1,4 @@
-import Logger from 'helpers/Logger'
+import Logger from '../../../src/helpers/Logger'
 import { AbiItem } from 'web3-utils'
 import { web3 } from '../../helpers/web3'
 

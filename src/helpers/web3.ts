@@ -3,7 +3,7 @@ import Web3 from 'web3'
 // TODO: check if latest version fixes
 import HttpProvider, { HttpProvider as HttpProviderType } from 'web3-providers-http'
 import WebsocketProvider, { WebsocketProvider as WebsocketProviderType } from 'web3-providers-ws'
-import Logger from 'helpers/Logger'
+import Logger from './Logger'
 
 export function createWeb3 (url?: string): Web3 {
   const log = new Logger('helpers:web3')
