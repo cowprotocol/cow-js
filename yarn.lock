@@ -540,7 +540,7 @@
     "@ethersproject/properties" "^5.0.7"
     "@ethersproject/strings" "^5.0.8"
 
-"@gnosis.pm/dex-contracts@^0.5.0":
+"@gnosis.pm/dex-contracts@0.5.0":
   version "0.5.0"
   resolved "https://registry.yarnpkg.com/@gnosis.pm/dex-contracts/-/dex-contracts-0.5.0.tgz#26ac8fbaae1c7da225c5b70af42bb92afa9fde13"
   integrity sha512-b3MgplVbd+6D3u9O0dVNU65ZYrD/FxSBv+X52ILHq9fTAMh5zGNfkUIYEJtc7QTrULhnmEUZJ3DO7sGh+SPReA==
