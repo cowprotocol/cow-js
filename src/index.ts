@@ -1,5 +1,5 @@
 import { TokenDetailsConfigLegacy } from 'types'
-import tokenListJson from 'tokenList.json'
+import tokenListJson from './tokenList.json'
 
 // Contracts
 export * from './contracts'

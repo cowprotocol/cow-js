@@ -35,18 +35,14 @@ yarn add @cowprotocol/cow-js --save
 #Alternatively
 npm install @cowprotocol/cow-js --save
 ```
+## Usage
 
-Import the contract:
+```bash
+# Using yarn
+yarn add @cowprotocol/cow-js --save
 
-```js
-import { BatchExchangeContract } from ' @cowprotocol/cow-js'
-
-// Instanciate the smart contract
-const web3 = new Web3()
-const batchExchangeContract = new BatchExchangeContract({ web3 })
-
-// Alternativelly provide the address
-const batchExchangeContract = new BatchExchangeContract({ web3, address: '0x89593E017D4A88c60347257DAfB95384a422da09' })
+#Alternatively
+npm install @cowprotocol/cow-js --save
 ```
 
 # Issues

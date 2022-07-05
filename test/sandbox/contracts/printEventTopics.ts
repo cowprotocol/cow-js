@@ -1,4 +1,4 @@
-import Logger from 'helpers/Logger'
+import Logger from '../../../src/helpers/Logger'
 import { AbiItem } from 'web3-utils'
 import { web3 } from '../../helpers/web3'
 
@@ -11,7 +11,7 @@ require('dotenv').config()
 const log = new Logger('sandbox:contracts/printEventTopics')
 
 async function exec(): Promise<void> {
-  const abi = require('contracts/abi/BatchExchange.json')
+  const abi = require('contracts/abi/Erc20.json')
   const events = abi.filter((def: AbiItem) => def.type === 'event')
 
   log.info('Found %d events:', events.length)

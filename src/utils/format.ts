@@ -19,8 +19,8 @@ import {
   TEN_BIG_NUMBER,
   THOUSANDS_SYMBOL,
   DECIMALS_SYMBOL,
-} from 'const'
-import { TokenDex } from 'types'
+} from '../const'
+import { TokenDex } from '../types'
 
 function _formatDecimalsForDisplay(numberToConvert: BigNumber, decimalsSymbol: string) {
   // 2.00012366123.integerValue() ==> 2

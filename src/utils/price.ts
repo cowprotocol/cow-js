@@ -1,6 +1,6 @@
 import BigNumber from 'bignumber.js'
 import BN from 'bn.js'
-import { ONE_BIG_NUMBER, TEN_BIG_NUMBER, DEFAULT_PRECISION } from 'const'
+import { ONE_BIG_NUMBER, TEN_BIG_NUMBER, DEFAULT_PRECISION } from '../const'
 
 interface Token {
   amount: BN | BigNumber | string

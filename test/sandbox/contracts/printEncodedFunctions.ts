@@ -1,6 +1,6 @@
 import { AbiItem } from 'web3-utils'
 
-import Logger from 'helpers/Logger'
+import Logger from '../../../src/helpers/Logger'
 import { web3 } from '../../helpers/web3'
 
 require('dotenv').config()
@@ -12,7 +12,7 @@ require('dotenv').config()
 const log = new Logger('sandbox:printEncodedFunctions')
 
 async function exec(): Promise<void> {
-  const abi = require('contracts/abi/BatchExchange.json')
+  const abi = require('contracts/abi/Erc20.json')
   const functions = abi.filter((def: AbiItem) => def.type === 'function')
 
   log.info('Found %d functions:', functions.length)
